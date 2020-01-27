@@ -1,0 +1,893 @@
+/*For Test Only*/
+
+.form-inline {
+    display: none !important;
+}
+
+/*For Test Only*/
+
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+/*Fonts*/
+
+/*General*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+.table td {
+    vertical-align: middle !important;
+}
+
+.colored-line {
+    height: 4px;
+    background: rgb(0, 33, 71);
+    background: linear-gradient(90deg, rgba(242, 177, 33, 1) 20%, rgba(0, 33, 71, 1) 100%);
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif !important;
+}
+
+h1 {
+    font-size: 180%;
+}
+
+ul {
+    font-size: 14px;
+}
+
+body, p, p.lead {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.lead {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.remove-pd-mar {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ciu-blue-bg {
+    background-color: #002147;
+}
+
+.ciu-yellow-bg {
+    background-color: #f2b121;
+}
+
+.small-underline {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+    /*margin-top: 100px;*/
+    margin-top: 20px;
+}
+
+.small-underline:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    bottom: -20px;
+    left: calc(50% - 25px);
+    border-bottom: 3px solid black;
+}
+
+.small-underline-white {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.small-underline-white:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    bottom: -20px;
+    left: calc(50% - 25px);
+    border-bottom: 3px solid white;
+}
+
+.card-text, .card-title {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.slick-dots li button:before {
+    font-size: 15px;
+}
+
+.story-img {
+    width: 50%;
+}
+
+/*Menu Dropdown Arrow*/
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/*General*/
+
+/*Table*/
+
+.table td, .table th {
+    padding: .35rem;
+    font-size: 14px;
+}
+
+.table {
+    font-weight: 400 !important;
+}
+
+/*Table*/
+
+/*Bootstrap Carousel*/
+
+/*
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 60px;
+    width: 60px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+*/
+
+/*Bootstrap Carousel*/
+
+/*Top Menu*/
+
+.top-menu-ul>li>a {
+    color: #002147;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+.top-menu-ul>li>a:before {
+    background: #002147;
+}
+
+.top-menu-ul>li>a:active {
+    color: #002147;
+}
+
+.top-menu-ul>li>a:hover {
+    color: #002147;
+    text-decoration: none;
+}
+
+.top-menu-ul {
+    color: #002147;
+    list-style-type: none;
+    padding: 2px !important;
+    margin: 0px !important;
+}
+
+.top-menu-ul>li {
+    display: inline-block;
+}
+
+/*Top Menu*/
+
+/*Latest News*/
+
+.latest-news {
+    display: inline-block;
+    background-color: #002147;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.latest-news>a, .latest-news>a:active, .latest-news>a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.latest-news>a, .latest-news-marquee-link {
+    font-size: 14px;
+}
+
+.latest-news>a:before {
+    background: white;
+}
+
+.latest-news-marquee {
+    overflow: hidden;
+}
+
+.latest-news-marquee-link, .latest-news-marquee-link:active, .latest-news-marquee-link:hover {
+    margin: 0px 20px;
+    color: #002147;
+}
+
+/*Latest News*/
+
+/*Logo*/
+
+.logo {
+    height: 120px;
+}
+
+.head-sse {
+    font-size: 35px;
+    /*font-family: 'Courier Prime', monospace;*/
+    font-variant: small-caps;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    /*font-family: 'Carrois Gothic SC', sans-serif;*/
+    font-weight: bolder;
+}
+
+.head-ciu {
+    font-size: 25px;
+    /*font-family: 'Courier Prime', monospace;*/
+    font-variant: small-caps;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    /*font-family: 'Carrois Gothic SC', sans-serif;*/
+}
+
+.ciu-moto {
+    font-family: 'Courgette', cursive !important;
+}
+
+/*Logo*/
+
+/*Menu*/
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-link::before {
+    background: #f8f9fa;
+}
+
+.nav-link {
+    color: #f8f9fa !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    font-size: 14px !important;
+}
+
+.navbar-nav>.nav-item:hover {
+    background-color: #344873;
+}
+
+.navbar-nav>.nav-item {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.navbar-toggler {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.dropdown-menu {
+    width: max-content;
+    /*min-width: 0px;*/
+    max-width: 90vw;
+    background-color: #344873;
+    border-radius: 0px;
+}
+
+/*Menu*/
+
+/*Footer*/
+
+.custom-footer>div>p {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.custom-footer>div>div>div>img {
+    width: 100px;
+}
+
+/*Footer*/
+
+/*Sidebar*/
+
+.sidebar-menu:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-menu {
+    color: black;
+    display: block;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.sidebar-menu-active {
+    background-color: gray;
+    color: white;
+}
+
+/*Sidebar*/
+
+/*Sidebar Submenu Toggle*/
+
+.sidebar-submenu:focus, .sidebar-submenu:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.sidebar-submenu {
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+    text-align: left;
+    color: black;
+    font-size: 15px;
+}
+
+.sidebar-submenu:hover {
+    background-color: black;
+    color: white;
+}
+
+.sidebar-submenu-active {
+    color: white;
+    background-color: #afafaf;
+}
+
+.sidebar-submenu-toggle {
+    display: none;
+}
+
+/*
+.sidebar-submenu-toggle:first-child{
+    display: block;
+}
+*/
+
+.sidebar-submenu-toggle:first-of-type {
+    display: block;
+}
+
+/*Sidebar Submenu Toggle*/
+
+/*Social Media*/
+
+.social-media {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    z-index: 100 !important;
+}
+
+.social-media>a>img {
+    width: 35px;
+}
+
+/*Social Media*/
+
+/*QRCode*/
+
+.qr-code {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    z-index: 100 !important;
+}
+
+.qr-code>a>img {
+    width: 120px;
+}
+
+/*QRCode*/
+
+/*Courses Index*/
+
+.index-course-btn>p {
+    font-size: 16px;
+}
+
+/*Index Page Courses*/
+
+/*Faculty*/
+
+.faculty-card {
+    width: 200px;
+    border: none;
+    padding: 10px;
+    /*background-color: #e9ecef;*/
+    background-color: transparent;
+    z-index: 1 !important;
+}
+
+.faculty-card>img {
+    width: 80%;
+}
+
+.faculty-card:hover {
+    z-index: 1 !important;
+}
+
+.faculty-card:active, .faculty-card:hover {
+    text-decoration: none;
+}
+
+.faculty-page-img {
+    width: 100%;
+    max-width: 50vw;
+}
+
+.faculty-card>.card-body>.card-text {
+    font-size: 14px;
+}
+
+/*Faculty*/
+
+/*Upcoming Events*/
+
+.upcoming-events-container {
+    border-right: 3px solid #f2b121;
+}
+
+.event-content {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.event-carousel {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-carousel>.slick-prev:before, .event-carousel>.slick-next:before {
+    color: black;
+}
+
+.index-event-card {
+    padding: 10px;
+    margin: 10px;
+}
+
+.index-event-card>.card-img-top {
+    height: 150px;
+    object-fit: contain;
+}
+
+.index-event-card>.card-body {
+    height: 150px;
+    border-top: 2px solid gray;
+    margin-top: 10px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.index-event-card>.card-body>a {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.index-event-card>.card-body>.card-text {
+    font-size: 14px;
+}
+
+/*Upcoming Events*/
+
+/*Notice*/
+
+.notice {
+    max-height: 250px;
+    /*font-size: 14px !important;*/
+    overflow: hidden;
+}
+
+/*Notice*/
+
+/*news*/
+
+.news-card {
+    border: none;
+    padding: 10px;
+    background-color: #e9ecef;
+    margin: 10px;
+}
+
+.news-card>.card-img-top {
+    height: 200px;
+    object-fit: contain;
+}
+
+.news-card>.card-body {
+    height: 200px;
+    border-top: 2px solid gray;
+    margin-top: 10px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.news-card>.card-body>a {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.news-card>.card-body>.card-text {
+    font-size: 14px;
+}
+
+.news-carousel>.slick-dots li button:before {
+    color: white !important;
+    /*background-color: coral !important;*/
+}
+
+.news-carousel>.slick-dots li.slick-active button:before {
+    color: white;
+    opacity: 1;
+}
+
+/*news*/
+
+/*Faculty*/
+
+.faculty-page-text {
+    text-align: left;
+}
+
+.faculty-page-text>a>h3 {
+    font-size: 20px;
+}
+
+.faculty-page-text>p {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.faculty-page-text>a {
+    font-size: 14px;
+}
+
+/*Faculty*/
+
+/*Map*/
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 100%;
+}
+
+/*Map*/
+
+/*sitemap*/
+
+.sitemap>p>a, .sitemap>p>a:hover, .sitemap>p>a:active {
+    color: white;
+}
+
+/*sitemap*/
+
+/*Hero*/
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: 'Courier Prime', monospace;
+    font-weight: bolder;
+}
+
+.hero-text>h1 {
+    font-size: 4vw;
+}
+
+.hero-img {
+    object-fit: cover;
+    max-height: 15vw;
+}
+
+/*Hero*/
+
+/*Courses Page*/
+
+.course-toggle {
+    /*To initially hide the tables*/
+    display: none;
+}
+
+.course-btn:hover {
+    background-color: #344873 !important;
+}
+
+.course-btn:active {
+    background-color: #000020 !important;
+}
+
+.course-tabs {
+    color: black !important;
+    padding: 10px !important;
+}
+
+/*Courses Page*/
+
+/*Events Page*/
+
+.event-page-card {
+    min-height: 450px;
+    text-align: left !important;
+}
+
+.event-page-card>div>p {
+    font-size: 14px;
+}
+
+/*Events Page*/
+
+/*News Page*/
+
+.news-page-card {
+    height: 100%;
+    text-align: left !important;
+}
+
+.news-page-card>div>h5 {
+    font-size: 18px;
+}
+
+.news-page-card>div>p {
+    font-size: 14px;
+}
+
+/*News Page*/
+
+/*Academic Calender Page*/
+
+.academic-calender {
+    width: 50vw;
+    height: 50vw;
+}
+
+/*Academic Calender Page*/
+
+/*Scroll Up Btn*/
+
+#scroll-up-button {
+    display: inline-block;
+    background-color: #f2b121;
+    color: white;
+    /*width: 50px;*/
+    /*height: 50px;*/
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    font-size: 10px;
+}
+
+#scroll-up-button:hover {
+    cursor: pointer;
+    background-color: #f2b121;
+}
+
+#scroll-up-button:active {
+    background-color: #002147;
+}
+
+#scroll-up-button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*Scroll Up Btn*/
+
+/*Responsive*/
+
+/* Large devices (desktops, less than 1200px)*/
+
+@media (max-width: 1199.98px) {
+    /*Logo*/
+    .logo {
+        height: 140px;
+    }
+    /*Logo*/
+    /*Social Media*/
+    .social-media>a>img {
+        width: 40px;
+    }
+    /*Social Media*/
+    /*QrCode*/
+    .qr-code>a>img {
+        width: 100px;
+    }
+    /*QrCode*/
+    /*Events*/
+    .event-card {
+        width: 350px;
+    }
+    /*Events*/
+    /*Bootstrap Carousel*/
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 50px;
+        width: 50px;
+    }
+    .carousel-control-next-icon:after, .carousel-control-prev-icon:after {
+        font-size: 30px;
+    }
+    /*Bootstrap Carousel*/
+}
+
+/* Medium devices (tablets, less than 992px)*/
+
+@media (max-width: 991.98px) {
+    /*General*/
+    .colored-line {
+        background: linear-gradient(90deg, rgba(0, 33, 71, 1) 0%, rgba(218, 163, 37, 1) 50%, rgba(0, 33, 71, 1) 100%);
+    }
+    /*General*/
+    /*Notice*/
+    .notice {
+        max-height: 250px;
+    }
+    /*Notice*/
+    /*Academic Calender Page*/
+    .academic-calender {
+        width: 100%;
+        height: 90vw;
+    }
+    /*Academic Calender Page*/
+    /*Events*/
+    .event-card {
+        width: 300px;
+    }
+    .upcoming-events-container {
+        border-right: none;
+    }
+    /*Events*/
+    /*Navbar*/
+    .dropdown-menu {
+        padding-left: 15px;
+    }
+    /*Navbar*/
+    /*Sidebar Subment*/
+    .sidebar-submenu:hover {
+        background-color: #afafaf;
+    }
+    /*Sidebar Subment*/
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+
+@media (max-width: 767.98px) {
+    /*Notice*/
+    .notice {
+        max-height: 200px;
+    }
+    /*Notice*/
+    /*Social Media*/
+    .social-media>a>img {
+        width: 30px;
+    }
+    /*Social Media*/
+    /*QrCode*/
+    .qr-code {
+        display: none !important;
+    }
+    /*QrCode*/
+    .story-img {
+        width: 80%;
+    }
+    /*Hero*/
+    .hero-text>h1 {
+        font-size: 5vw;
+    }
+    /*Hero*/
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    /*General*/
+    /*
+    .container{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    */
+    /*General*/
+    /*Courses*/
+    .course-tabs {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+    /*Courses*/
+    /*Notice*/
+    .notice {
+        max-height: 180px;
+    }
+    /*Notice*/
+    /*Faculty*/
+    .faculty-page-text {
+        text-align: center;
+        margin-top: 10px;
+    }
+    /*Faculty*/
+    /*Events*/
+    .event-card {
+        width: 250px;
+    }
+    /*Events*/
+    /*Academic Calender Page*/
+    .academic-calender {
+        width: 150vw;
+        height: 150vw;
+    }
+    /*Academic Calender Page*/
+    /*News Carousel*/
+    .news-carousel-container {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    /*News Carousel*/
+}
+
+/*Responsive*/
