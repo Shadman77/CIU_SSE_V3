@@ -68,6 +68,13 @@ body, p, p.lead {
     background-color: #f2b121;
 }
 
+.ciu-yellow-border{
+    border: 2px solid #f2b121;
+}
+.ciu-yellow-border:hover{
+    border: 2px solid #f2b121;
+}
+
 .small-underline {
     display: block;
     position: relative;
@@ -104,6 +111,25 @@ body, p, p.lead {
     bottom: -20px;
     left: calc(50% - 25px);
     border-bottom: 3px solid white;
+}
+
+.small-underline-ciu-yellow {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.small-underline-ciu-yellow:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    bottom: -20px;
+    left: calc(50% - 25px);
+    border-bottom: 3px solid #f2b121;
 }
 
 .card-text, .card-title {
